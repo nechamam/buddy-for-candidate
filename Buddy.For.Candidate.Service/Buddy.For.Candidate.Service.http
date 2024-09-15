@@ -1,6 +1,0 @@
-@Buddy.For.Candidate.Service_HostAddress = http://localhost:5283
-
-GET {{Buddy.For.Candidate.Service_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
