@@ -1,0 +1,25 @@
+﻿@Buddy.For.Candidate.Service_HostAddress = https://localhost:7223
+
+@id = {{$guid}}
+
+GET {{Buddy.For.Candidate.Service_HostAddress}}/
+
+###
+
+POST {{Buddy.For.Candidate.Service_HostAddress}}/user-details
+Content-Type: application/json
+{
+    "id": "{{id}}",
+    "firstName": "John",
+    "lastName": "Doe",
+    "currentPosition": "Software Engineer",
+    "lookingForPosition": "Senior Software Engineer",
+    "skills": "C#, Java, Python",
+    "phoneNumber": "1234567890"
+}
+###
+
+
+GET {{Buddy.For.Candidate.Service_HostAddress}}/user-details/{{id}}
+
+###
