@@ -24,3 +24,31 @@ Content-Type: application/json
 }
 
 ###
+
+### get resume for user by ID
+GET  http://localhost:5000/user_resume/7cfc13dc-e197-4f59-b3de-b6480d5fef85
+Content-Type: application/json
+
+###
+
+### get linked in profile for user by ID
+GET  http://localhost:5000/linked_in_profile/7cfc13dc-e197-4f59-b3de-b6480d5fef85
+Content-Type: application/json
+
+###
+
+### get leet code exercises for user by ID
+GET  http://localhost:5000/leet_code_exercises/7cfc13dc-e197-4f59-b3de-b6480d5fef85
+Content-Type: application/json
+
+###
+
+### get mock interview for user by ID
+GET  http://localhost:5000/mock_interview/7cfc13dc-e197-4f59-b3de-b6480d5fef85
+Content-Type: application/json
+
+###
+
+### get salary negotiation for user by ID
+GET  http://localhost:5000/salary_negotiation/7cfc13dc-e197-4f59-b3de-b6480d5fef85
+Content-Type: application/json
